@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.contenedor{
+    text-align: center;
+}
+.nombre {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #320096;
+    color: white;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    width:100%;
+}
+.foto {
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid #320096;
+}
+.fila {
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+}
+.columna {
+    width: 50%;
+}
+.titulo {
+    background-color: #320096;
+    color: white;
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 75%;
+    text-align: center;
+}
+.tabla {
+    border: 2px solid #320096;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f5f7fa;
+    width: 80%;
+}
+.tabla li::marker{
+    color: #320096;
+    font-size: 20px;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
